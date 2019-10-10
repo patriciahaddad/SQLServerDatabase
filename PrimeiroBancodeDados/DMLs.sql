@@ -14,3 +14,6 @@ DELETE FROM materia
 WHERE IdMateria = 2;
 
 INSERT INTO trabalho (Nota, IdMateria, IdAluno) VALUES (9.8 , 1, 1);
+
+/* TRUNCATE - apaga todos os registros de uma tabela */
+TRUNCATE TABLE trabalho;
